@@ -2,7 +2,7 @@
 
 问卷星自动答题Pro（可设置偏好选项概率作答）
 
-最终更新：2021.05.26
+log：bugs fix, 2021.05.26
 
 模板参照：wenJuanXing_Pro/2021_05_25修复版代码/model.js或myModel.js（已通过实测）
 
