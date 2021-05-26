@@ -4,37 +4,48 @@
 
 最终更新：2021.05.26
 
+模板参照：wenJuanXing_Pro/2021_05_25修复版代码/model.js或myModel.js（已通过实测）
 
-
-// @description version 0.4->原作者为@Github_ZainCheung: 全自动填写问卷星问卷，支持自定义填空答案，最快可平均两三秒填写一份问卷，可多开几个标签同时填写，智能验证功能未实现，可能需要手动验证
+# Description：
+全自动填写问卷星问卷，支持自定义填空、普通单选、矩阵单选答案，最快可平均两三秒填写一份问卷，可多开几个标签同时填写，智能验证功能未实现，需要手动点击验证
 
 // 2021.05.22 更新日志：可以设定普通单选题答案，提供随机选择和设定概率作答的方式；填空题可根据设定自动填写；支持自定义选择矩阵单选题
 
-// 已适配题型（源码参看/wenjuanxin.user.js，本脚本->myQS.js为修订版）
+Github项目源码参看/wenjuanxin.user.js
 
-// 表格/矩阵选择题 - 单选
+// @author...Github_ZainCheung
 
-// 单选
+# 文件说明：
 
-// 填空 默认为空（需要设置）
+# wenJuanXing_Pro/2021_05_25修复版代码/model.js
 
-// @author       Github_ZainCheung
+本项目代码模板，看注释DIY普通单选和矩阵单选！
 
-// @author_update      Github_ohhhhhhhhh...
+# wenJuanXing_Pro/2021_05_25修复版代码/myModel.js || 使用中.js
 
-// @include     https://www.wjx.cn/jq/*.aspx
+笔者自己使用过的js脚本，可供参考。
 
-// @include     https://www.wjx.cn/m/*.aspx
+# wenJuanXing_Pro/Github_ZainCheung
 
-// @include     https://www.wjx.cn/hj/*.aspx
+原作者项目，随机填写。
 
-// @include     https://www.wjx.cn/wjx/join/complete.aspx*
+# wenJuanXing_Pro/IP
 
-// @grant        none
+/ip.mdb为数字版IP地址大全（20000+）
 
-// @namespace http://tampermonkey.net/
+/IP_Excel，使用Excel，参照“又是一个小细节”/“又是一些小细节.rtf“中的公式可将数字版IP转换为实际IP。
 
-// ==/UserScript==
+/IP_Export，使用Excel“我的加载项”->Excel to Json将其导出为json格式文件，表头参考wenJuanXing_Pro/history/modifyheaders.json，配合modify headers插件使用，可代理全国IP。
+
+# wenJuanXing_Pro/history
+
+/myQS.js，已弃用。
+
+/问卷源码.scpt，查看问卷ID时可参考。
+
+# wenJuanXing_Pro/又是一个小细节
+
+rtf文档，有需要自行阅读。
 
 /*
 
@@ -44,7 +55,7 @@
  
  ⚠️
  
- ⚠️ 注意：问卷链接需要转换为以上*jq/yourId.aspx的形式，Id可在网页源码中查看到 ⚠️
+ ⚠️ 注意：问卷链接需要转换为https://www,wjx.cn/jq/yourId.aspx的形式，yourId在网页源码中查看到 ⚠️
  
  ⚠️
  
