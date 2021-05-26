@@ -13,8 +13,6 @@ log：bugs fix, 2021.05.26(final)
 
 Github项目源码参看/wenjuanxin.user.js
 
-author...@Github_ZainCheung
-
 ## 文件说明：
 
 ### wenJuanXing_Pro/2021_05_25修复版代码/model.js
@@ -28,6 +26,8 @@ author...@Github_ZainCheung
 ### wenJuanXing_Pro/Github_ZainCheung
 
 原作者项目，随机填写问卷。
+
+author...@Github_ZainCheung
 
 ### wenJuanXing_Pro/IP
 
