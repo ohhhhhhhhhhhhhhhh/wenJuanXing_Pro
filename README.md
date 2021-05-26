@@ -55,7 +55,7 @@ rtf文档，有需要自行阅读。
  
  ⚠️
  
- ## 问卷链接需要转换为 https://www,wjx.cn/jq/yourId.aspx 的形式，yourId在网页源码中查看到
+ ## 问卷链接需要转换为 https://www.wjx.cn/jq/yourId.aspx 的形式，yourId在网页源码中查看到
  
  ⚠️
  
