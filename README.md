@@ -33,9 +33,9 @@ author...@Github_ZainCheung
 
 /ip.mdb为数字版IP地址大全（20000+）。
 
-/IP_Excel，使用Excel，使用“又是一个小细节/又是一些小细节.rtf“中的公式可将数字版IP转换为实际IP。
+/IP_Excel，在Excel中使用“又是一个小细节/又是一些小细节.rtf“中的公式可将数字版IP转换为实际IP。
 
-/IP_Export，使用Excel“我的加载项”->Excel to Json将其导出为json格式文件，表头参考wenJuanXing_Pro/history/modifyheaders.json，配合modify headers插件使用，可代理全国IP。
+/IP_Export，使用Excel->我的加载项->Excel to Json将其导出为json格式文件，具体形式参考wenJuanXing_Pro/history/modifyheaders.json，配合modify headers插件使用，可代理全国IP。
 
 ### wenJuanXing_Pro/history
 
