@@ -31,7 +31,7 @@ author...@Github_ZainCheung
 
 ### wenJuanXing_Pro/IP
 
-/ip.mdb为数字版IP地址大全（20000+）
+/ip.mdb为数字版IP地址大全（20000+）。
 
 /IP_Excel，使用Excel，使用“又是一个小细节/又是一些小细节.rtf“中的公式可将数字版IP转换为实际IP。
 
